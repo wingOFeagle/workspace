@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="../css/test.css">
+<link rel="stylesheet" type="text/css" href="../css/kechengdaohang.css">
+<link rel="stylesheet" type="text/css" href="../css/fudao.css">
+<link rel="stylesheet" type="text/css" href="../css/topHeader.css">
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../js/test.js"></script>
+</head>
+<body>
+	<div class="topHeader" style="z-index: 999;">
+		<div class="wrap1000" style="position: relative;">
+			<!-- 首页漂浮广告 -->
+			<div id="floatAd" style="position: absolute; left: -125px; height: 283px; top: 398px;">
+				<div id="floatAd" style="position: absolute; height: 283px">
+					<a id="imgfloat"
+						href="http://web.xdf.cn/adv/index/adv?adv_hash=758b8747de94c71e033b0c2b034ffe76">
+						<img alt="漂浮广告" src="http://file.xdf.cn/new_www/20161114/op_58292dd474a99.jpeg">
+					</a>
+				</div>
+
+			</div>
+			<!-- 快速链接 S-->
+			<ul class="sg_tits2 fr">
+				<li class="allschool2" id="allschool2"><a href="http://www.xdf.cn/about/allcity.html"
+						target="_blank" id="allschoolid2" class="zyjs_sr_self">各地学校</a><em></em></li>
+				<li class="allorg2"><a class="" href="javascript:void(0)" id="allorgid2">子机构</a><em></em></li>
+				<li class="allorg3"><a class="" href="http://baoming.xdf.cn/Orders/OrderList.aspx">我的订单</a></li>
+				<li class="allorg3"><a class="" href="http://i.xdf.cn/">我的新东方</a></li>
+				<li class="guide2 floatR"><img
+					src="http://images.xdf.cn/cms20150819/xinbannew/img/gwc2.png" alt="">
+			</ul>
+			<!-- 快速链接 E-->
+			<!-- 登陆前状态 S-->
+			<div class="fl" id="loginF">
+				<!-- 选择去向 S-->
+				<div class="hasGone">
+					<form method="post" target="_self" name="login_form" id="login_form"
+						action="http://passport.xdf.cn/apis/users.ashx">
+						<!-- 登录前显示、登录后隐藏 S-->
+						<a href="http://passport.xdf.cn/i/u7/Index.aspx?AppId=32&amp;ReturnUrl=http://www.xdf.cn/"
+							class="hbtnA zyjs_sr_self" target="_self" id="btn_login">请登录</a>
+						<a
+							href="http://passport.xdf.cn/i/u7/Register.aspx?AppId=32&amp;ReturnUrl=http%3A%2F%2Fwww.xdf.cn%2F"
+							class="fl zyjs_sr_self hbtnA2" id="registerLink"
+							onclick="_gaq.push(['_trackEvent','注册跳转',document.domain,'顶部通栏-注册']);">注册</a>
+					</form>
+				</div>
+				<!-- 选择去向 E-->
+			</div>
+			<!-- 登陆前状态 E-->
+			<!-- 登陆后状态 S-->
+			<div class="fl" id="loginL" style="display: none;">
+				<!-- 登陆后 -->
+				<span class="welcome2" id="welcomeText">您好，欢迎来到新东方</span>
+				<!-- 选择去向 S-->
+				<div class="hasGone">
+					<a href="http://passport.xdf.cn/Logout.aspx" class="hbtnA" id="logoutBtn" target="_self">退出</a>
+				</div>
+				<!-- 选择去向 E-->
+			</div>
+			<!-- 登陆后状态 E-->
+			<!-- 各地学校 S-->
+			<div style="display: none;" class="no sg_school2 zyjs_sr_special_gdxx">
+				<ul class="ul1">
+					<li><span>A</span><em><a href="#">鞍山</a></em></li>
+					<li><span>B</span><em><a href="#">北京</a> <a href="#">保定</a></em></li>
+					<li><span>C</span><em><a href="#">重庆</a> <a href="#">成都</a> <a href="#">长沙</a> <a
+								href="#">长春</a></em></li>
+					<li><span>D</span><em><a href="#">大连</a> <a href="#">多伦多</a></em></li>
+				</ul>
+				<ul class="ul2">
+					<li><span>L</span><em><a href="#">兰州</a> <a href="#">洛阳</a></em></li>
+					<li><span>N</span><em><a href="#">南京</a> <a href="#">南昌</a> <a href="#">南宁</a> <a
+								href="#">宁波</a> <a href="#">南通</a></em></li>
+					<li><span>Q</span><em><a href="#">青岛</a> <a href="#">泉州</a></em></li>
+					<li><span>S</span><em><a href="#">上海</a> <a href="#">沈阳</a> <a href="#">深圳</a> <a
+								href="#">石家庄</a> <a href="#">苏州</a> <a href="#">十堰</a></em></li>
+				</ul>
+			</div>
+			<!-- 各地学校 E-->
+			<!-- 子机构 S-->
+			<div style="display: none;" class="no sg_org2 zyjs_sr_special_zjg">
+				<ul>
+					<li><a href="#">新东方在线</a></li>
+					<li><a href="#">新东方大愚图书</a></li>
+					<li><a href="#">家庭教育中心</a></li>
+					<li><a href="#">新东方OKAY</a></li>
+					<li><a href="#">新东方百学汇</a></li>
+
+				</ul>
+				<ul>
+					<li><a href="#">满天星幼儿园</a></li>
+					<li><a href="#">迈格森国际教育</a></li>
+					<li><a href="#">泡泡少儿教育</a></li>
+					<li><a href="#">北京新东方外国语</a></li>
+
+				</ul>
+				<ul class="last">
+					<li><a href="#">前途出国</a></li>
+					<li><a href="#">国际游学</a></li>
+					<li><a href="#">酷学酷玩夏冬令营</a></li>
+
+				</ul>
+			</div>
+			<!-- 子机构 E-->
+		</div>
+	</div>
+</body>
+</html>

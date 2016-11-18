@@ -95,10 +95,10 @@ public class HelloServlet extends HttpServlet
 			out.println("<font size=5 color=blue>test Chinese</font><br>");
 			out.println("这是一段中文测试.");
 			out.println("<font size=5 color=blue>button</font><br>");
-			out.println("<form action='Button1Servlet'" + "method='POST'>" + "第一个参数：<input type='text' name='key1'><br>"
+			out.println("<form action='LoadServlet1'" + "method='POST'>" + "第一个参数：<input type='text' name='key1'><br>"
 					+ "第二个参数: <textarea name='key2'></textarea><br>" + "<input type='submit' value='提交'> " + "</form>");
 			out.println("<font size=5 color=blue>LoadFile</font><br><br>");
-			out.println("<a href='/marven_test/LoadServlet_test'><input type='button' />Hello Load</a> <br>");
+			out.println("<a href='/marven_test/LoadServlet1'><input type='button' />Hello Load</a> <br>");
 			out.println("<font size=4 color=blue>动态文件下载</font><br>");
 			out.println("</html>");
 
