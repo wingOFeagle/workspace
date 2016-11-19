@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>HelloServletName</servlet-name>
+    <servlet-class>HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServletName</servlet-name>
+    <url-pattern>/HelloServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoadServletName</servlet-name>
+    <servlet-class>LoadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoadServletName</servlet-name>
+    <url-pattern>/LoadServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>SubmitTestName</servlet-name>
+    <servlet-class>SubmitTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SubmitTestName</servlet-name>
+    <url-pattern>/SubmitTest1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RegisterName</servlet-name>
+    <servlet-class>Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterName</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+</web-app>
