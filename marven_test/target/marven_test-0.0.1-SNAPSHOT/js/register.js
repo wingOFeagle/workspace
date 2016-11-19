@@ -6,7 +6,7 @@ function IsNullOrEmpty(v) {
 }
 function checkUser(obj, async) {
 	return true;
-	//下面是用来检测数据用户的合法性
+	// 下面是用来检测数据用户的合法性
 	var result = false;
 	var v = obj.val();
 	var id = "txtUser";
@@ -40,7 +40,7 @@ function checkUser(obj, async) {
 		}
 	}
 }
-//密码必须6到15位
+// 密码必须6到15位
 function IsPwdStrong(s) {
 	if (s.length < 6)
 		return false;
@@ -64,7 +64,7 @@ function checkPwd(obj) {
 	return result;
 }
 
-//验证两次密码一致
+// 验证两次密码一致
 function checkPwd2Same() {
 	var id = "txtUser";
 	if ($("#txtPwd").val() != $("#txtPwd2").val()) {
@@ -76,7 +76,7 @@ function checkPwd2Same() {
 // 按钮验证
 function Verify() {
 	// 验证接收条款
-	
+
 	var accept = $("input[type='checkbox']");
 	if (accept != null && accept.is(":checked") == false) {
 		alert("请先选中“我接受并同意《用户服务条款》”才能注册");
@@ -84,9 +84,9 @@ function Verify() {
 	}
 
 	var result = true;
-	//依次检测用户、密码、验证密码的合法性
-	/*var result = checkUser($("#txtUser"), false);
-
+	// 依次检测用户、密码、验证密码的合法性
+	var result = checkUser($("#txtUser"), false);
+s
 	if (result)
 		result = checkPwd($("#txtPwd"));
 
@@ -94,7 +94,7 @@ function Verify() {
 		result = checkPwd($("#txtPwd2"));
 
 	if (result)
-		result = checkPwd2Same();*/
+		result = checkPwd2Same();
 
 	if (result) {
 		$("#btnRegister").val("正在注册...");
